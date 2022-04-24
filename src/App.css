@@ -1,3 +1,14 @@
+#metamask{
+  height: 110px;
+  
+}
+#metamask:hover{
+  cursor: pointer;
+  outline-style: solid;
+  ;}
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+#heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gray;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.persona1{
+  margin-top: 00px;
+}
+.persona2{
+  margin-top: 100px;
+}
+
+
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.grid2x2 > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box { 
+  margin: 20px;
+  font-size: 35px; 
+}
+.box1 { background-color: gray }
+.box2 { background-color: gray; }
+.box3 { background-color: gray; }
+.box4 { background-color: gray; }
+
+.font-link {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
