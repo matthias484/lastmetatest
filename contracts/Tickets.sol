@@ -1,4 +1,5 @@
-pragma solidity >=0.4.22 <0.9.0;
+//SPDX-License-Identifier: MIT
+pragma solidity >=0.4.0 <0.9.0;
 
 uint256 constant TOTAL_TICKETS = 10;
 
@@ -26,4 +27,3 @@ contract Tickets {
     tickets[_index].owner = msg.sender;
   }
 }
-s
